@@ -30,14 +30,12 @@ Rebuild target 'Target 1'
 assembling startup_stm32f407xx.s...
 compiling system_stm32f4xx.c...
 compiling dac_test.c...
-dac_test.c(107): warning:  #177-D: variable "count"  was declared but never referenced
+dac_test.c(57): warning:  #177-D: variable "i"  was declared but never referenced
   	int count = 0, i = 0;
-dac_test.c(108): warning:  #177-D: variable "sample"  was declared but never referenced
-  	const uint32_t sample[10] = {2048,3251,3995,3996,3253,2051,847,101,98,839};
-dac_test.c: 2 warnings, 0 errors
+dac_test.c: 1 warning, 0 errors
 linking...
-Program Size: Code=796 RO-data=704 RW-data=0 ZI-data=1632  
-".\Objects\dac_test.axf" - 0 Error(s), 2 Warning(s).
+Program Size: Code=668 RO-data=408 RW-data=0 ZI-data=1632  
+".\Objects\dac_test.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -68,7 +66,7 @@ Package Vendor: Keil
       Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
 
    * Component: ARM::CMSIS:CORE:5.0.1
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:04
 </pre>
 </body>
 </html>
